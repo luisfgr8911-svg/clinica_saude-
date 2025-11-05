@@ -1,2 +1,4 @@
-## Itegrantes do Grupo ##
-## Thaissa, Luis Felipe, Luis Fernando
+## Integrantes do Grupo ##
+- Thaissa 
+- Luis Felipe 
+- Luis Fernando
