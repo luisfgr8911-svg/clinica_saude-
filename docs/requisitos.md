@@ -1,3 +1,4 @@
+
 ## Regras de Negócios (RN)
 ## RN01 – Aprovação de Agendamento
 Todo agendamento realizado pelo paciente deve ser validado e confirmado pela recepcionista antes de ser considerado efetivo na agenda do médico. Motivo: Evitar duplicidade de horários e garantir controle administrativo.
@@ -46,3 +47,35 @@ O sistema deve permitir que o paciente atualize seus dados cadastrais, como ende
 
 ## RF10
 O sistema deve permitir que a recepcionista cadastre e edite informações dos médicos, incluindo especialidade, horários de atendimento e status de disponibilidade.
+
+## Requisitos Não Funcionais (RNF)
+
+## RNF01
+O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com uptime mínimo de 99%.
+
+## RNF02
+O sistema deve ter tempo de resposta inferior a 3 segundos em todas as operações principais (login, agendamento, consulta de agenda).
+
+## RNF03
+O sistema deve garantir segurança e confidencialidade dos dados dos pacientes, conforme a Lei Geral de Proteção de Dados (LGPD).
+
+## RNF04
+O sistema deve ser compatível com navegadores modernos (Chrome, Firefox, Edge, Safari) e dispositivos móveis.
+
+## RNF05
+A interface do sistema deve ser intuitiva, acessível e responsiva, facilitando o uso por diferentes perfis de usuários.
+
+## RNF06
+O sistema deve suportar até 500 acessos simultâneos sem perda perceptível de desempenho.
+
+## RNF07
+O sistema deve possuir backup automático diário do banco de dados.
+
+## RNF08
+O sistema deve registrar logs de acesso e operações de usuários para fins de auditoria e segurança.
+
+## RNF09
+O sistema deve permitir recuperação de senha de forma segura via e-mail cadastrado ou número do celular ( via SMS, enviando link.)
+
+## RNF10
+O sistema deve ter layout padronizado e identidade visual da Clínica Saúde+, garantindo coerência com a marca.
