@@ -30,7 +30,7 @@
 
   ### Cancelar consulta (Atores: Peciente e Recepcionista)
 
-  • Pré-condição: Antecedência de 48 horas.
+  • Pré-condição: 48 horas antes da consulta.
 
   • Pós-condição: Consulta cancelada com sucesso. 
 
@@ -40,4 +40,4 @@
 
   1. Cancelar consulta com menos de 48 horas para o atendimento
 
-  2. Enviar lembrete de consulta para o paciente 
+  2. O usuário tenta cancelar uma consulta inexistente (já foi cancelada ou nunca existiu)
